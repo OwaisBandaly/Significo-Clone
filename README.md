@@ -25,5 +25,3 @@ Significo's landing page clone showcases the power of HTML, Tailwind CSS, and Ja
 ## View Live
 
 Explore the live version of this project hosted on GitHub Pages [here](https://owaisbandaly.github.io/Significo-Clone/).
-
-This revised description focuses specifically on the landing page/home page clone of Significo's website, highlighting its key features and technological implementations.
