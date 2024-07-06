@@ -33,17 +33,17 @@ body {
 
 @font-face {
   font-family: "machina-medium";
-  src: url(../assets/font/machhina-med.ttf);
+  src: url(/assets/font/machhina-med.ttf);
 }
 
 @font-face {
   font-family: "machina-light";
-  src: url(../assets/font/machina-light.ttf);
+  src: url(/assets/font/machina-light.ttf);
 }
 
 @font-face {
   font-family: "satoshi";
-  src: url(../assets/font/satoshi.ttf);
+  src: url(/assets/font/satoshi.ttf);
 }
 
 .vid {
