@@ -11,10 +11,10 @@
 </head>
 
 <body theme="black">
+    
     <div class="main w-full">
         <!-- first section -->
-        <div data-color="black"
-         class="home section w-full h-[150vh] relative mb-[10rem] absolute left-0">
+        <div data-color="black" class="home section w-full h-[150vh] relative mb-[10rem] absolute left-0">
 
             <!-- navbar -->
             <nav class="navbar fixed top-0 w-full h-[3.5rem] w-full flex items-center justify-between z-[10]">
@@ -62,22 +62,21 @@
                     </svg>
                 </div>
                 <div class="content flex justify-center items-center text-left mx-6 font-semibold">
-                    <ul
-                        class="menulist overflow-hidden md:overflow-visible flex flex-col md:flex-row absolute left-0 bg-black md:bg-transparent
+                    <ul class="menulist overflow-hidden md:overflow-visible flex flex-col md:flex-row absolute left-0 bg-black md:bg-transparent
                         w-full h-screen md:w-0 top-14 md:static md:justify-center md:items-center md:text-center gap-8 font-[machina-light]
                         md:mx-52">
-                        <li class="text-5xl my-4 mt-10 mx-14 md:my-0 md:mx-0 md:text-lg cursor-pointer"><a
-                                href="#"></a>About</li>
-                        <li class="text-5xl my-4 mx-14 md:my-0 md:mx-0 md:text-lg cursor-pointer"><a
+                        <li
+                            class="sm:text-5xl w-fit text-2xl mb-2 mt-10 mx-8 md:my-0 md:mx-0 md:text-lg cursor-pointer">
+                            <a href="#"></a>About</li>
+                        <li class="sm:text-5xl w-fit text-2xl mb-2 mx-8 md:my-0 md:mx-0 md:text-lg cursor-pointer"><a
                                 href="#"></a>Insights</li>
-                        <li class="text-5xl my-4 mx-14 md:my-0 md:mx-0 md:text-lg cursor-pointer"><a
+                        <li class="sm:text-5xl w-fit text-2xl mb-2 mx-8 md:my-0 md:mx-0 md:text-lg cursor-pointer"><a
                                 href="#"></a>Solutions</li>
-                        <li class="text-5xl my-4 mx-14 md:my-0 md:mx-0 md:text-lg cursor-pointer"><a href="#"></a>Team
+                        <li class="sm:text-5xl w-fit text-2xl mb-2 mx-8 md:my-0 md:mx-0 md:text-lg cursor-pointer"><a
+                                href="#"></a>Team
                         </li>
-                        <li class="text-5xl my-4 mx-14 md:my-0 md:mx-0 md:text-lg cursor-pointer"><a
+                        <li class="sm:text-5xl w-fit text-2xl mb-2 mx-8 md:my-0 md:mx-0 md:text-lg cursor-pointer"><a
                                 href="#"></a>Careers</li>
-                        <li class="text-5xl my-4 mx-14 md:my-0 md:mx-0 md:text-lg md:hidden cursor-pointer"><a
-                                href="#"></a>Contact us</li>
                     </ul>
                     <button
                         class="min-w-28 min-h-10 text-black rounded-md bg-[#FF6014] md:mx-10 font-[satoshi] font-semibold">Contact
@@ -85,10 +84,10 @@
                 </div>
 
                 <div class="absolute left-0 top-1/2 -translate-y-1/2 mx-4 cursor-pointer md:hidden">
-                    <span class="hamburger material-symbols-outlined text-3xl" onclick="toggleMenu()">
+                    <span class="hamburger material-symbols-outlined text-3xl">
                         menu
                     </span>
-                    <span class="close material-symbols-outlined text-3xl hidden" onclick="toggleMenu()">
+                    <span class="close material-symbols-outlined text-3xl hidden">
                         close
                     </span>
                 </div>
@@ -105,9 +104,10 @@
                 <div style="--clip: 100%"
                     class="vid w-full h-screen absolute z-[3] top-0 left-0 bg-black overflow-hidden">
                     <video autoplay muted loop
-                        class="hidden md:block absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 md:scale-[200%] lg:scale-[160%] xl:scale-[100%]"
+                        class="hidden sm:block absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-[100%] sm:scale-[220%] md:scale-[180%] lg:scale-[140%] xl:scale-[110%]"
                         src="assets/Video/significo-main-hero.mp4"></video>
-                    <video class="md:hidden w-full" autoplay muted loop src="assets/Video/significo-main-hero-mobile.mp4">
+                    <video class="sm:hidden w-full" autoplay muted loop
+                        src="assets/Video/significo-main-hero-mobile.mp4">
                     </video>
                 </div>
 
@@ -312,22 +312,22 @@
 
         <!-- second section -->
         <div data-color="cyan"
-            class="second-sec section w-full relative px-10 py-5 gap-10 flex flex-col md:flex-row items-start justify-between md:mb-[8rem]">
-            <div class="left-text md:w-1/2 w-full md:sticky top-0 left-0">
+            class="second-sec section w-full relative px-8 py-5 gap-10 flex flex-col lg:flex-row items-start justify-between md:mb-[8rem]">
+            <div class="left-text lg:w-1/2 w-full lg:sticky top-0 left-0">
                 <div class="sub-text mt-[5rem] mb-8">
-                    <p class="text-[1.2rem] font-['satoshi'] font-medium md:w-[86%] w-full ">Significo is a custom
+                    <p class="text-[1.2rem] font-['satoshi'] font-medium lg:w-[86%] w-full ">Significo is a custom
                         health software developer founded on the belief
                         that technology can transform healthcare to put people first. We put
                         humanity back at the center of healthcare by simplifying complexity,
                         accelerating capacity, and improving outcomes.</p>
                 </div>
 
-                <div class="heading font-['machina-light'] whitespace-nowrap md:leading-[5.3rem] leading-[3.5rem]">
-                    <h1 class="hidden md:text-[3rem]">We Craft
-                        <h1 class="text-[3rem]">Human-Centric</h1>
-                        <h1 class="text-[3rem]">Health Software</h1>
+                <div class="heading font-['machina-light'] whitespace-nowrap sm:leading-[3.5rem] font-medium">
+                    <h1 class="hidden">We Craft
+                        <h1 class="text-[2.3rem] sm:text-[3rem]">Human-Centric</h1>
+                        <h1 class="text-[2.3rem] sm:text-[3rem]">Health Software</h1>
                 </div>
-                
+
                 <div class="hidden md:block w-fit px-10 py-4 border-[1px] border-[--dcyan] my-10">
                     <div class="masker overflow-hidden">
                         <span class="inline-block text-lg font-['satoshi'] font-medium uppercase">Our Solutions</span>
@@ -336,56 +336,56 @@
             </div>
 
             <div
-                class="right-cards md:w-1/2 w-full flex flex-col gap-6 md:flex md:flex-col md:mt-[43rem] mb-[28rem] md:gap-10">
+                class="right-cards lg:w-1/2 w-full flex flex-col gap-6 lg:flex lg:flex-col lg:mt-[43rem] mb-[28rem] lg:gap-10">
                 <div
-                    class="cards md:flex min-w-[95%] flex-col justify-center items-start gap-6 font-[satoshi] border-[1px] border-black md:min-w-[80%]  px-12 py-6">
-                    <h1 class="text-3xl font-bold my-2">Driven by Purpose</h1>
-                    <p class="md:text-lg text-md font-semibold w-full text-left">We believe technology can dramatically
+                    class="cards lg:flex min-w-[95%] flex-col justify-center items-start gap-6 font-[satoshi] border-[1px] border-black lg:min-w-[80%] px-6 sm:px-12 py-6">
+                    <h1 class="sm:text-3xl text-2xl font-bold my-2">Driven by Purpose</h1>
+                    <p class="sm:text-lg text-md font-semibold w-full text-left">We believe technology can dramatically
                         improve the experience of managing
                         health, and — when crafted with empathy,
                         intention, and expertise — impact lives at
                         scale</p>
                 </div>
                 <div
-                    class="cards  min-w-[95%] md:flex flex-col justify-center items-start gap-6 font-[satoshi] border-[1px] border-black md:min-w-[80%] px-12 py-6">
-                    <h1 class="text-3xl font-bold my-2">Custom Products</h1>
-                    <p class="md:text-lg text-md font-semibold w-full text-left">We build mobile and web-based apps,
+                    class="cards  min-w-[95%] lg:flex flex-col justify-center items-start gap-6 font-[satoshi] border-[1px] border-black lg:min-w-[80%] px-6 sm:px-12 py-6">
+                    <h1 class="sm:text-3xl text-2xl font-bold my-2">Custom Products</h1>
+                    <p class="sm:text-lg text-sm font-semibold w-full text-left">We build mobile and web-based apps,
                         platforms, and infrastructure fitted to your
                         needs. We have an open solutions
                         framework, so we work to fit your business,
                         not the other way around.</p>
                 </div>
                 <div
-                    class="cards  min-w-[95%] md:flex flex-col justify-center items-start gap-6 font-[satoshi] border-[1px] border-black md:min-w-[80%] px-12 py-6">
-                    <h1 class="text-3xl font-bold my-2">Partnerships</h1>
-                    <p class="md:text-lg text-md font-semibold w-full text-left">We work with payers, providers, and
+                    class="cards  min-w-[95%] lg:flex flex-col justify-center items-start gap-6 font-[satoshi] border-[1px] border-black lg:min-w-[80%] px-6 sm:px-12 py-6">
+                    <h1 class="sm:text-3xl text-2xl font-bold my-2">Partnerships</h1>
+                    <p class="sm:text-lg text-sm font-semibold w-full text-left">We work with payers, providers, and
                         pharma to help internal teams through
                         ground-up builds, product optimizations,
                         and streamlining data/analytics</p>
                 </div>
                 <div
-                    class="cards  min-w-[95%] md:flex flex-col justify-center items-start gap-6 font-[satoshi] border-[1px] border-black md:min-w-[80%] px-12 py-6">
-                    <h1 class="text-3xl font-bold my-2">Security & Compliance</h1>
-                    <p class="md:text-lg text-md font-semibold w-full text-left">Not just technology experts. Health
+                    class="cards  min-w-[95%] lg:flex flex-col justify-center items-start gap-6 font-[satoshi] border-[1px] border-black lg:min-w-[80%] px-6 sm:px-12 py-6">
+                    <h1 class="sm:text-3xl text-2xl font-bold my-2">Security & Compliance</h1>
+                    <p class="sm:text-lg text-sm font-semibold w-full text-left">Not just technology experts. Health
                         experts. We are able to navigate both
                         stringent regulatory environments and the
                         complexities of technology and data.</p>
                 </div>
                 <div class="md:hidden text-center my-6 flex justify-center items-center"><button
-                    class="px-8 py-5 bg-[#F5F19C] font-bold  border-[1px] border-black w-full">OUR SOLUTIONS -></button>
-            </div>
+                        class="px-8 py-5 bg-[#F5F19C] font-bold  border-[1px] border-black w-full">OUR SOLUTIONS
+                        -></button>
+                </div>
             </div>
         </div>
 
         <!-- third section -->
-        <div data-color="salmon"
-         class="third-sec w-full section ">
+        <div data-color="salmon" class="third-sec w-full section ">
             <div class="cont w-full h-[300vh] relative">
                 <div class="slides-cont w-full h-[100vh] flex lg:gap-10 gap-12 sticky left-0 top-0 overflow-hidden">
                     <div class="slides slide-one w-full  h-screen flex-shrink-0 flex justify-center items-center">
-                        <div class="font-['machina-light'] lg:leading-[8.5rem] sm:leading-[5.5rem] leading-[4rem]">
-                            <h1 class="lg:text-[7rem] sm:text-[5rem] text-[4rem]">Real talk,</h1>
-                            <h1 class="lg:text-[7rem] sm:text-[5rem] text-[4rem]">Real impact</h1>
+                        <div class="font-['machina-light'] lg:leading-[8.5rem] sm:leading-[5.5rem] leading-[3rem]">
+                            <h1 class="lg:text-[7rem] sm:text-[5rem] text-[2.5rem]">Real talk,</h1>
+                            <h1 class="lg:text-[7rem] sm:text-[5rem] text-[2.5rem]">Real impact</h1>
                         </div>
                         <div
                             class="image absolute lg:top-1/2 -translate-y-1/2 right-0 translate-x-1/2 lg:w-[20rem] lg:h-[20rem] md:w-[15rem] md:h-[15rem] w-[12rem] h-[12rem] rounded-full overflow-hidden">
@@ -394,7 +394,8 @@
                                 alt="">
                         </div>
                     </div>
-                    <div class="slides slide-two w-full h-screen flex-shrink-0 flex justify-center items-center relative">
+                    <div
+                        class="slides slide-two w-full h-screen flex-shrink-0 flex justify-center items-center relative">
                         <div
                             class="img-1 lg:w-[10rem] lg:h-[10rem] w-[9rem] h-[9rem] rounded-full overflow-hidden z-[3] absolute lg:top-[62%] bottom-[12%] lg:left-[24%] left-[20%] translate-x-[5rem]">
                             <img class="w-full h-full object-cover scale-[1.2]"
@@ -408,7 +409,7 @@
                                 alt="">
                         </div>
                         <div
-                            class="img-3 lg:w-[18rem] lg:h-[18rem] md:w-[15rem] md:h-[15rem] w-[11rem] h-[11rem] rounded-full overflow-hidden z-[3] absolute top-1/2 lg:translate-x-2/2 md:translate-x-1/3 lg:-translate-y-1/2 -translate-y-[80%] sm:translate-x-[40%] translate-x-[50%] right-0">
+                            class="img-3 lg:w-[18rem] lg:h-[18rem] md:w-[15rem] md:h-[15rem] sm:w-[11rem] sm:h-[11rem] w-[9rem] h-[9rem] rounded-full overflow-hidden z-[3] absolute top-1/2 lg:translate-x-2/2 md:translate-x-1/3 lg:-translate-y-1/2 sm:-translate-y-[80%] -translate-y-[120%] sm:translate-x-[40%] translate-x-[35%] right-0">
                             <img class="w-full h-full object-cover scale-[1.2]"
                                 src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/65e9ee2e5e80fe8ace7a1ff3_5-p-500.jpg"
                                 alt="">
@@ -421,24 +422,25 @@
                         </div>
                         <div class="w-[60%] text-center font-[machina-medium] relative">
                             <h3
-                                class="absolute -top-[8rem] md:-left-[6rem] -left-[2.5rem] lg:w-1/3 md:w-[40%] w-[80%] text-left lg:text-xl text-md font-[satoshi] font-semibold">
+                                class="absolute sm:-top-[8rem] -top-[10rem] md:-left-[6rem] sm:-left-[2.5rem] -left-[2.2rem] lg:w-1/3 md:w-[40%] w-[80%] text-left lg:text-xl sm:text-md text-sm font-[satoshi] font-semibold">
                                 We’re on a mission to impact as many lives as possible and build a better company while
                                 we do it. Here’s our progress.</h3>
-                            <h1 class="lg:text-[9.5rem] text-[7.5rem] leading-none text-white">20.4M</h1>
+                            <h1 class="lg:text-[9.5rem] sm:text-[7rem] text-[4rem] leading-none text-white">20.4M</h1>
                             <p
-                                class="lg:text-[3rem] md:text-[2.5rem] sm:text-[1.7rem] text-2xl lg:leading-none md:leading-[3rem] sm:leading-10">
+                                class="lg:text-[3rem] md:text-[2.5rem] sm:text-[1.7rem] text-xl lg:leading-none md:leading-[3rem] sm:leading-10">
                                 Real people — real lives — we have built products and solutions for.</p>
                         </div>
                     </div>
-                    <div class="slides slide-three w-full  h-screen flex-shrink-0 relative flex justify-center items-center">
+                    <div
+                        class="slides slide-three w-full  h-screen flex-shrink-0 relative flex justify-center items-center">
                         <div
-                            class="icon1 absolute top-0 md:left-[45%] md:-translate-y-[40%] left-[20%] -translate-y-[30%]">
+                            class="icon1 absolute top-0 md:left-[45%] md:-translate-y-[40%] sm:left-[20%] -translate-y-[30%]">
                             <img class="md:scale-[0.7] scale-[0.5]"
                                 src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/65ea1b924ee31caf14d64b2a_TreeStructure-p-500.png"
                                 alt="">
                         </div>
                         <div
-                            class="icon2 absolute bottom-0 md:left-[15%] left-[-22%] md:translate-y-[43%] translate-y-[15%]">
+                            class="icon2 absolute bottom-0 md:left-[15%] sm:left-[-22%] left-[-45%] md:translate-y-[43%] sm:translate-y-[15%]">
                             <img class="md:scale-[0.8] scale-[0.5]"
                                 src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/65ea1b841fcd9f50115dbe9c_RocketLaunch-p-500.png"
                                 alt="">
@@ -446,13 +448,14 @@
 
                         <div class="text-center font-[machina-medium] relative">
                             <h3
-                                class="w-[15rem] lg:w-[20rem] absolute lg:-top-[10rem] lg:-left-[35rem] -top-[10rem] sm:-left-[20rem] -left-[15rem] text-left lg:text-xl text-md font-[satoshi] font-semibold">
+                                class="w-[15rem] lg:w-[20rem] absolute lg:-top-[10rem] lg:-left-[35rem] sm:-top-[10rem] -top-[13rem] sm:-left-[20rem] -left-[18rem] text-left lg:text-xl text-md font-[satoshi] font-semibold">
                                 Our team is global and diverse, because our individual experiences make us stronger.
                             </h3>
                             <h1
-                                class="counter lg:text-[9.5rem] sm:text-[7rem] text-[6rem] leading-none text-white sm:-ml-[16rem] -ml-[11rem] lg:-ml-[20rem]">
+                                class="counter lg:text-[9.5rem] sm:text-[7rem] text-[4.7rem] leading-none text-white sm:-ml-[16rem] -ml-[15rem] lg:-ml-[20rem]">
                                 49%</h1>
-                            <p class="lg:text-[3rem] md:text-[2rem] sm:text-2xl text-xl sm:-ml-[16rem] -ml-[11rem] lg:-ml-[20rem]">
+                            <p
+                                class="lg:text-[3rem] md:text-[2rem] sm:text-2xl text-lg sm:-ml-[16rem] -ml-[15rem] lg:-ml-[20rem]">
                                 Expert Women in Tech.</p>
                         </div>
                     </div>
@@ -461,19 +464,18 @@
         </div>
 
         <!-- fourth section -->
-        <div data-color="white" 
-        class="fouth-sec section font-[machina-light] mt-[25rem] mb-[20rem]">
+        <div data-color="white" class="fouth-sec section font-[machina-light] mt-[25rem] mb-[20rem]">
             <h1 class="main-head text-center md:text-6.5xl text-5xl">Our Team</h1>
-            <div class="lists w-full md:px-6 px-8 md:mt-20 mt-14 lg:scale-[1] scale-[0.95]">
-                <div class="listelem w-full py-[2.5rem] md:border-b-[1px] border-black relative md:px-10">
+            <div class="lists w-full sm:px-6 px-4 md:mt-20 mt-14 lg:scale-[1] scale-[0.95]">
+                <div class="listelem w-full py-[2.5rem] border-b-[1px] border-black relative md:px-10">
                     <div class="relative z-[3] md:flex md:flex-row flex flex-col md:items-center md:justify-between">
                         <div class="listleft flex gap-12">
                             <h3 class="hidden md:block text-5xl text-zinc-400">01</h3>
                             <h1
-                                class="md:text-5xl text-[2.5rem] text-[#2544EE] md:text-[#000] sm:min-w-full w-[50%] leading-[3rem]">
+                                class="md:text-5xl text-[2.5rem] text-[#2544EE] md:text-[#000] sm:min-w-fit w-[50%] leading-[3rem]">
                                 Dr. ric McCarteny</h1>
                         </div>
-                        <h3 class="text-2xl font-[satoshi] md:font-semibold font-medium"> CEO</h3>
+                        <h3 class="text-2xl font-[satoshi] md:font-semibold font-medium w-fit"> CEO</h3>
                     </div>
                     <div
                         class="opacity-0 float-img w-[20rem] h-[20rem] rounded-full overflow-hidden absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-[4]">
@@ -488,13 +490,13 @@
                             alt="">
                     </div>
                 </div>
-                <div class="listelem w-full py-[2.5rem] md:border-b-[1px] border-black relative md:px-10">
+                <div class="listelem w-full py-[2.5rem] border-b-[1px] border-black relative md:px-10">
                     <div class="relative z-[3] md:flex md:flex-row flex-col md:items-center md:justify-between">
                         <div class="listleft flex gap-12">
                             <h3 class="hidden md:block text-5xl text-zinc-400">02</h3>
-                            <h1 class="md:text-5xl text-[2.5rem] text-[#2544EE] md:text-[#000]">Chris Koha</h1>
+                            <h1 class="md:text-5xl text-[2.5rem] text-[#2544EE] md:text-[#000] w-fit">Chris Koha</h1>
                         </div>
-                        <h3 class="text-2xl font-[satoshi] md:font-semibold font-medium">COO</h3>
+                        <h3 class="text-2xl font-[satoshi] md:font-semibold font-medium w-fit">COO</h3>
                     </div>
                     <div
                         class="opacity-0 float-img w-[20rem] h-[20rem] rounded-full overflow-hidden absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-[4]">
@@ -509,16 +511,16 @@
                             alt="">
                     </div>
                 </div>
-                <div class="listelem w-full py-[2.5rem] md:border-b-[1px] border-black relative md:px-10">
+                <div class="listelem w-full py-[2.5rem] border-b-[1px] border-black relative md:px-10">
                     <div class="relative z-[3] md:flex md:flex-row flex-col md:items-center md:justify-between">
                         <div class="listleft flex gap-12">
                             <h3 class="hidden md:block text-5xl text-zinc-400">03</h3>
                             <h1
-                                class="md:text-5xl text-[2.5rem] text-[#2544EE] md:text-[#000] sm:min-w-full w-[50%] leading-[3rem]">
+                                class="md:text-5xl text-[2.5rem] text-[#2544EE] md:text-[#000] sm:min-w-fit w-[50%] leading-[3rem]">
                                 Caroline Nieto</h1>
                         </div>
                         <h3
-                            class="text-[1.4rem] font-[satoshi] md:font-semibold font-medium overflow-hidden md:text-right">
+                            class="text-[1.4rem] font-[satoshi] md:font-semibold font-medium overflow-hidden md:text-right w-fit">
                             Chief Product Officer</h3>
                     </div>
                     <div
@@ -534,15 +536,15 @@
                             alt="">
                     </div>
                 </div>
-                <div class="listelem w-full py-[2.5rem] md:border-b-[1px] border-black relative md:px-10">
+                <div class="listelem w-full py-[2.5rem] border-b-[1px] border-black relative md:px-10">
                     <div class="relative z-[3] md:flex md:flex-row flex-col md:items-center md:justify-between">
                         <div class="listleft flex gap-12">
                             <h3 class="hidden md:block text-5xl text-zinc-400">04</h3>
                             <h1
-                                class="md:text-5xl text-[2.5rem] text-[#2544EE] md:text-[#000] sm:w-full w-[50%] leading-[3rem]">
+                                class="md:text-5xl text-[2.5rem] text-[#2544EE] md:text-[#000] sm:w-fit w-[50%] leading-[3rem]">
                                 Victor Albertos</h1>
                         </div>
-                        <h3 class="text-2xl font-[satoshi] md:font-semibold font-medium">CTO</h3>
+                        <h3 class="text-2xl font-[satoshi] md:font-semibold font-medium w-fit">CTO</h3>
                     </div>
                     <div
                         class="opacity-0 float-img w-[20rem] h-[20rem] rounded-full overflow-hidden absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-[4]">
@@ -557,15 +559,16 @@
                             alt="">
                     </div>
                 </div>
-                <div class="listelem w-full py-[2.5rem] relative md:px-10 border-b-[1px] border-black md:border-none">
+                <div class="listelem w-full py-[2.5rem] relative md:px-10">
                     <div class="relative z-[3] md:flex md:flex-row flex-col md:items-center md:justify-between">
                         <div class="listleft flex gap-12">
                             <h3 class="hidden md:block text-5xl text-zinc-400">05</h3>
                             <h1
-                                class="md:text-5xl text-[2.5rem] text-[#2544EE] md:text-[#000] sm:min-w-full w-[50%] leading-[3rem]">
+                                class="md:text-5xl text-[2.5rem] text-[#2544EE] md:text-[#000] sm:min-w-fit w-[50%] leading-[3rem]">
                                 Jana Schmidt</h1>
                         </div>
-                        <h3 class="text-2xl font-[satoshi] md:font-semibold font-medium md:text-right">Chief Innovation
+                        <h3 class="text-2xl font-[satoshi] md:font-semibold font-medium md:text-right sm:w-fit w-[49%]">
+                            Chief Innovation
                             Officer</h3>
                     </div>
                     <div
@@ -590,17 +593,16 @@
         </div>
 
         <!-- fifth section -->
-        <div data-color="white"
-            class="fifth-sec section w-full md:h-[115vh] flex flex-col md:flex-row md:items-start md:justify-between gap-10
+        <div data-color="white" class="fifth-sec section w-full md:h-[115vh] flex flex-col md:flex-row md:items-start md:justify-between gap-10
             md:mt-20 mb-[10rem] md:px-24  overflow-hidden">
             <div
                 class="left-sec md:w-1/2 w-full h-full flex flex-col justify-between md:mr-20 md:ml-[-2.5rem] px-12 md:px-0">
                 <h1
                     class="md:text-2xl text-xl md:w-full w-[90%] text-left font-[satoshi] md:font-semibold font-medium leading-8">
                     Stay up-to-date on the latest healthcar innovations and thought leadership.</h1>
-                <div class="bottom-txt font-[machina-light] md:mb-[5rem]">
-                    <h1 class="mt-10 text-[3rem] leading-[4rem]">Explore</h1>
-                    <h1 class="text-[3rem]">Our Insights</h1>
+                <div class="bottom-txt w-full font-[machina-light] md:mb-[5rem]">
+                    <h1 class="mt-10 sm:text-[3rem] text-[2.7rem] leading-[4rem]">Explore</h1>
+                    <h1 class="sm:text-[3rem] text-[2.7rem]">Our Insights</h1>
                     <button
                         class="px-8 py-5 my-2 bg-[#F5F19C] font-bold text-center border-[1px] border-black hidden md:block">VIEW
                         ALL ARTICLES -></button>
@@ -608,9 +610,9 @@
             </div>
 
             <div
-                class="capsules h-full flex items-center md:gap-20 gap-16 scale-[0.75] mt-[-7rem] ml-[-2rem] md:ml-0 md:mt-0 md:scale-[1]">
+                class="capsules h-full flex items-center flex-col sm:flex-row md:gap-20 gap-16 scale-[0.75] sm:mt-[-7rem] mt-[-10rem] sm:ml-[-2rem] md:ml-0 md:mt-0 md:scale-[1]">
                 <div
-                    class="capsule1 -rotate-[15deg] -translate-y-6 flex flex-col items-center py-8 px-7 rounded-full border-[1px] border-black font-[machina-medium]  ">
+                    class="capsule1 sm:-rotate-[15deg] -translate-y-6 flex flex-col items-center py-8 px-7 rounded-full border-[1px] border-black font-[machina-medium]  ">
                     <div class="capsule-img w-[20rem] h-[20rem] rounded-full bg-black overflow-hidden">
                         <img class="w-full h-full object-cover"
                             src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483190/66327831c53bb8c459a9b605_Untitled%20design-7.webp"
@@ -626,8 +628,9 @@
                     <button class="py-2 px-6 bg-[#E9BBFF] rounded-full text-lg mb-10 text-center">Thought
                         Leadership</button>
                 </div>
+
                 <div
-                    class="capsule2 -rotate-[15deg] translate-y-20 flex flex-col items-center py-8 px-7 rounded-full border-[1px] border-black font-[machina-medium]">
+                    class="capsule2 sm:-rotate-[15deg] translate-y-20 flex flex-col items-center py-8 px-7 rounded-full border-[1px] border-black font-[machina-medium]">
                     <button class="py-2 px-6 bg-[#E9BBFF] rounded-full text-lg mt-10 text-center">Thought
                         Leadership</button>
                     <div class="capsule1-text text-center md:mt-14 mt-10">

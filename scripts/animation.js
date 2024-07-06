@@ -2,26 +2,30 @@ let menuList = document.querySelector(".menulist");
 let closeMenu = document.querySelector(".close")
 let hamburger = document.querySelector(".hamburger")
 let mainSec = document.querySelector(".main")
+let navbar = document.querySelector(".navbar")
 menuList.style.maxHeight = "0px"
 
-function toggleMenu() {
+hamburger.addEventListener("click", () => {
   if (menuList.style.maxHeight == "0px") {
     menuList.style.maxHeight = "100vh"
-    menuList.classList.add("border-t-[1px]")
-    // menuList.classList.add("opacity-[1]")
+    menuList.style.visibility = "visible"
     closeMenu.style.display = "block"
     hamburger.style.display = "none"
-    // document.body.classList.add("fixed")
+    menuList.classList.add("border-t-[1px]")
+    navbar.classList.add("bg-black")
   }
-  else {
+})
+
+closeMenu.addEventListener("click", () => {
+  if (menuList.style.maxHeight == "100vh") {
     menuList.style.maxHeight = "0px"
-    menuList.classList.remove("border-t-[1px]")
-    // menuList.classList.remove("opacity-[1]")
+    menuList.style.visibility = "hidden"
     closeMenu.style.display = "none"
     hamburger.style.display = "block"
-    // document.body.classList.remove("fixed")
+    menuList.classList.remove("border-t-[1px]")
+    navbar.classList.remove("bg-black")
   }
-}
+})
 
 function homePageAnimation() {
   gsap.set(".rows", {
@@ -347,6 +351,5 @@ bodyColorChange();
 imageAnimation();
 cardsAnimation();
 fourthPageAnimation();
-toggleMenu();
 
 

@@ -24,26 +24,26 @@ body {
 }
 
 .cards {
-  transition: background-color ease 0.2s;
+  transition: background-color ease-in 0.3s;
 }
 
 .navbar ul {
-  transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.55s;
 }
 
 @font-face {
   font-family: "machina-medium";
-  src: url(/assets/font/machhina-med.ttf);
+  src: url(../assets/font/machhina-med.ttf);
 }
 
 @font-face {
   font-family: "machina-light";
-  src: url(/assets/font/machina-light.ttf);
+  src: url(../assets/font/machina-light.ttf);
 }
 
 @font-face {
   font-family: "satoshi";
-  src: url(/assets/font/satoshi.ttf);
+  src: url(../assets/font/satoshi.ttf);
 }
 
 .vid {
@@ -56,9 +56,9 @@ body[theme="black"] {
 }
 
 body[theme="black"] .navbar {
-  background-color: rgba(15, 15, 15, 0.443);
+  /* background-color: rgba(15, 15, 15, 0.443); */
   color: var(--white);
-  backdrop-filter: blur(15px);
+  backdrop-filter: blur(20px);
 }
 
 body[theme="black"] .section {
@@ -127,6 +127,10 @@ body[theme="white"] .section {
   body[theme="white"] .navbar ul {
     color: var(--black);
     background-color: var(--white);
+  }
+
+  .menulist {
+    visibility: hidden;
   }
 }
 
